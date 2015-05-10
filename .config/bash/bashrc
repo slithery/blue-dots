@@ -52,6 +52,11 @@ if [ -d "$HOME/.bin" ] ; then
     PATH="$HOME/.bin:$PATH"
 fi
 
+# Source ~/.config/bash/bash_aliases
+if [ -f ~/.config/bash/bash_aliases ]; then
+    . ~/.config/bash/bash_aliases
+fi
+
 # Set editor
 export EDITOR="vim"
 

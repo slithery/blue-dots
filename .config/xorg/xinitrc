@@ -35,4 +35,3 @@ fi
 # launch herbstluftwm
 
 exec herbstluftwm
-

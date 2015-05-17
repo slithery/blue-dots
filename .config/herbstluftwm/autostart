@@ -29,6 +29,12 @@ hc keybind $Mod-Shift-c close
 hc keybind $Mod-Return spawn urxvt
 hc keybind $Mod-d spawn dmenu_run -q -h 30 -fn "Ubuntu Mono-11" -x 140 -y 369 -w 1000 -nb black -nf white -sb white -sf black
 hc keybind $Mod-x spawn ~/.bin/dmenu2_power_menu.sh
+hc keybind XF86AudioPlay spawn mpc toggle
+hc keybind XF86AudioNext spawn mpc next
+hc keybind XF86AudioPrev spawn mpc prev
+hc keybind XF86AudioMute spawn pulseaudio-ctl mute
+hc keybind XF86AudioRaiseVolume spawn pulseaudio-ctl up
+hc keybind XF86AudioLowerVolume spawn pulseaudio-ctl down
 
 # basic movement
 # focusing clients

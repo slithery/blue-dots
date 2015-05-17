@@ -67,4 +67,5 @@ alias du='du -h --max-depth=1 | sort -hr'
 alias lsblk='lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,UUID'
 alias strc="awk '!/^ *#/ && NF'"
 alias cl='clear'
+alias ncmpcpp='ncmpcpp -c ~/.config/ncmpcpp/config'
 

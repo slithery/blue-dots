@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# this is a simple config for herbstluftwm
+# start background programs
 
+# set wallpaper
+feh --no-fehbg --bg-fill ~/.config/wallpapers/wallpaper
+
+
+# chain herbstclient commands
 hc() {
     cmd+=( , "$@" )
 }

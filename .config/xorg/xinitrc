@@ -45,6 +45,11 @@ if [ -f ~/.config/xorg/xresources ]; then
 fi
 
 
+# custom GTK2 configuration file location
+
+export GTK2_RC_FILES=~/.config/gtk-2.0/gtkrc-2.0
+
+
 # launch herbstluftwm
 
 exec herbstluftwm

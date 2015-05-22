@@ -68,4 +68,5 @@ alias lsblk='lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,UUID'
 alias strc="awk '!/^ *#/ && NF'"
 alias cl='clear'
 alias ncmpcpp='ncmpcpp -c ~/.config/ncmpcpp/config'
-
+alias ipl='get_iplayer && clear && get_iplayer --nocopyright'
+alias gipl='get_iplayer --nocopyright --output=~/videos --tvmode=flashhd,flashvhigh,flashhigh,flashstd,flashnormal --get'

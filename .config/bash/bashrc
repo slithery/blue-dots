@@ -52,6 +52,9 @@ if [ -d "$HOME/.bin" ] ; then
     PATH="$HOME/.bin:$PATH"
 fi
 
+# Add user rubygems to path
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+
 # Source ~/.config/bash/bash_aliases
 if [ -f ~/.config/bash/bash_aliases ]; then
     . ~/.config/bash/bash_aliases
